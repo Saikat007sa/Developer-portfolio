@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 .Naming-color{
     color: orange;
@@ -12,8 +13,9 @@ section{
 }
 .half-width{
     width: 50%;
-    padding-left: 5%;
+    padding-left: 7%;
     text-align: justify;
+    padding-right: 70px;
 }
 .linked-button{
     text-decoration: none;
@@ -23,4 +25,13 @@ section{
     padding: 10px;
     background-image: linear-gradient(blue, skyblue);
     border-radius: 10px;
+}
+.Top-heading{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.Middle-part{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }

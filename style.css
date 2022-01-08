@@ -8,14 +8,18 @@ body{
 h1{
     font-size: 40px;
 }
-section{
+p{
+    font-size: 16px;
+}
+.flexible-container{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
     padding-left: 7%;
     text-align: justify;
-    padding-right: 70px;
+    padding-right: 10%;
 }
 .linked-button{
     text-decoration: none;
@@ -34,4 +38,39 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.half-width img{
+    width: 110%;
+}
+.half-width_2{
+    width: 30%;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 25px;
+    text-align: justify;
+    box-shadow: 10px 10px 40px gray ;
+}
+.Experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-y: 75%;
+}
+#sebpo{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#web-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(purple, red);
+    border-image-slice: 1;
+}
+#ibaite{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, yellow);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
